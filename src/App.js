@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import MidArea from "./components/MidArea";
 import PreviewArea from "./components/PreviewArea";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/NavBar"; 
 
 
 export default function App() {
