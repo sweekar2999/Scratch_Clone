@@ -8,7 +8,7 @@ export default function Sidebar() {
     e.dataTransfer.setData('payload', JSON.stringify(payload));
   };
   return (
-    <div className="w-60 flex-none h-full overflow-y-auto flex flex-col items-start p-2 border-r border-gray-200">
+    <div className="w-60 flex-none h-full overflow-y-auto flex flex-col items-start p-2 border-r border-yellow-400">
       {
         Object.keys(sidebarBlocks).map(key => {
           return (

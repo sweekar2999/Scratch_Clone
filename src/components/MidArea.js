@@ -28,7 +28,7 @@ const MidArea = () => {
   };
 
   return (
-    <div className="flex-1 h-full overflow-auto bg-gray-100 p-6" onDrop={handleDrop} onDragOver={handleDragOver}>
+    <div className="flex-1 h-full overflow-auto bg-blue-500 p-6" onDrop={handleDrop} onDragOver={handleDragOver}>
       <div className="bg-white rounded-lg shadow-md p-6">
 
         {selectedSprite ? (

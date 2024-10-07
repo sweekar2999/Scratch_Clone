@@ -113,7 +113,7 @@ export default function SpriteScratch() {
         setDraggingSprite(null);
     }, [dispatch, draggingSprite, containerRef]);
     return (
-        <div className="stage-area overflow-hidden relative bg-white border-2 border-gray-200" style={{ flex: 0.8 }} ref={containerRef} onDragOver={handleDragOver}
+        <div className="stage-area overflow-hidden relative bg-grey-100 border-2 border-yellow-400" style={{ flex: 0.8 }} ref={containerRef} onDragOver={handleDragOver}
             onDrop={handleDrop}>
             {
                 sprites.map((sprite) => <Sprite key={sprite.id} sprite={sprite} containerSize={containerSize}

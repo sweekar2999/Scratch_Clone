@@ -11,12 +11,12 @@ const SpriteControls = () => {
   const selectedSpritId = spritesState.selectedSpriteId
   const dispatch = useDispatch();
   return (
-    <div className="flex flex-col border-t-2 border-gray-200 bg-gray-100 p-2" style={{ flex: 0.2 }}>
+    <div className="flex flex-col border-t-2 border-yellow-400 bg-blue-300 p-2" style={{ flex: 0.2 }}>
       <div className="flex justify-between items-center mb-2">
         <p className="font-bold text-lg">Sprites</p>
-        <div className="flex gap-2">
-          <div className="flex items-center justify-between py-2 px-4 bg-white rounded-lg shadow-md">
-            <label htmlFor="enableCollision" className="text-gray-700 font-medium mr-4">
+        <div className="flex gap-2 ">
+          <div className="flex items-center justify-between py-2 px-4 bg-blue-500 rounded-lg shadow-md border border-yellow-400">
+            <label htmlFor="enableCollision" className="text-gray-700 font-medium  p-2 rounded">
               Swap Actions On Collision
             </label>
             <div className="relative inline-block w-12 h-6 transition duration-200 ease-in-out">
