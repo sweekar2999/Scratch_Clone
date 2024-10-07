@@ -18,19 +18,19 @@ export default {
             text: 'Move __ steps (e.g., 10)',
             type: MOVE_STEPS,
             defaultPayload: { steps: 10 },
-            ariaLabel: "Move steps input" // Added accessibility attribute
+            ariaLabel: "Move steps input" 
         },
         {
             text: 'Turn __ degrees (e.g., 90)',
             type: TURN_DEGREES,
             defaultPayload: { degree: -15 },
-            ariaLabel: "Turn degrees input" // Added accessibility attribute
+            ariaLabel: "Turn degrees input" 
         },
         {
             text: "Go To x:__ y: __ (e.g., x: 100, y: 100)",
             type: GO_TO,
             defaultPayload: { x: 100, y: 100 },
-            ariaLabel: "Go to coordinates input" // Added accessibility attribute
+            ariaLabel: "Go to coordinates input"
         },
     ],
     Control: [
@@ -38,7 +38,7 @@ export default {
             type: REPEAT,
             text: "Repeat Animation",
             defaultPayload: {},
-            ariaLabel: "Repeat animation input" // Added accessibility attribute
+            ariaLabel: "Repeat animation input" 
         },
     ],
 }

@@ -49,7 +49,7 @@ const MidArea = () => {
                             e.preventDefault();
                             dispatch(deleteAction({ index }));
                         }}
-                        className="transition duration-300 hover:bg-gray-200" // Added hover effect
+                        className="transition duration-300 hover:bg-gray-200" 
                     >
                         <Trash width={"18px"} color='red' />
                     </button>
